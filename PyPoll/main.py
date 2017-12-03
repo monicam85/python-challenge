@@ -31,7 +31,7 @@ import timeit
 #import sys
 #Set file path and data files
 start_time = timeit.default_timer()
-FPATH = r'.\HW_Assignments\HW3\PyPoll'
+FPATH = r'.'
 FILENAMES = ["election_data_1.csv", "election_data_2.csv"]
 #Set OUTPUT_FILE and write all terminal results to file
 OUTPUT_FILE = open(os.path.join(FPATH, "ElectionResults.out"), 'w')
